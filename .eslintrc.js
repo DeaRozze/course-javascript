@@ -7,8 +7,6 @@ module.exports = {
     sourceType: 'module',
   },
   globals: {
-    jest: true,
-    nsObj: false,
     VK: true,
   },
 
