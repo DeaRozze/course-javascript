@@ -6,6 +6,10 @@ module.exports = {
     ecmaVersion: 2021,
     sourceType: 'module',
   },
+  globals: {
+    VK: true,
+  },
+
   plugins: ['prettier', 'jest'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   env: {
@@ -46,6 +50,7 @@ module.exports = {
       globals: {
         jest: true,
         nsObj: false,
+        VK: true,
       },
     },
     {
