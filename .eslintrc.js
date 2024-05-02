@@ -1,6 +1,9 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   root: true,
+  globals: {
+    VK: true,
+  },
   parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2021,
@@ -46,6 +49,7 @@ module.exports = {
       globals: {
         jest: true,
         nsObj: false,
+        VK: true,
       },
     },
     {
